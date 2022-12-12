@@ -22,11 +22,17 @@ function App() {
             <span>Menu2</span>
             <span>Menu3</span>
           </nav>
+          <div className="App">
+            <GoogleLogin
+              success={(res) => console.log(res)}
+              fail={(res) => console.log(res)}
+            />
+          </div>
         </header>
         <div className="App">
           <Container>
             <Row>
-              <Col xs={100} md={80}>
+              <Col xs={12} md={12}>
                 <Calendar />
               </Col>
             </Row>
@@ -42,13 +48,6 @@ function App() {
               </Col>
             </Row>
           </Container>
-        </div>
-
-        <div className="App">
-          <GoogleLogin
-            success={(res) => console.log(res)}
-            fail={(res) => console.log(res)}
-          />
         </div>
 
         <footer>
