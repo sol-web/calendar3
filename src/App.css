@@ -15,6 +15,16 @@ body {
   margin-bottom: 1rem;
 }
 
+h1 {
+  font-size: 35px;
+  margin-left: 30px;
+}
+
+span {
+  font-size: 20px;
+  margin: 18px;
+}
+
 .react-calendar {
   margin: auto;
   width: 100%;
@@ -23,20 +33,20 @@ body {
 }
 
 header {
-  margin: auto;
-  font-weight: 700;
-  background: linear-gradient(130deg, #3c91e7 0, #78378c 100%);
-  text-align: center;
-  font-size: 35px;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 75px;
+  padding: 1rem;
+  color: white;
+  background: teal;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
   color: rgb(255, 255, 255);
   background-color: rgb(40, 44, 52);
-  height: 100px;
+  height: 50px;
   margin: auto;
   text-align: center;
   line-height: 100px;
